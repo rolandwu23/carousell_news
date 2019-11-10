@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#1e1e1e</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="newsBGColor">#FFFFFF</color>
+    <color name="activityMainBGColor">#979797</color>
+
+    <color name="titleColor">#262629</color>
+    <color name="descriptionColor">#262629</color>
+    <color name="timeStampColor">#8F939C</color>
+
+
+</resources>

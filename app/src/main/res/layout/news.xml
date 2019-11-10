@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/card_view_corner_radius"
+    app:cardBackgroundColor="@color/newsBGColor"
+    app:cardUseCompatPadding="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/banner_iv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/banner_height"
+            android:contentDescription="@string/banner"
+            />
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/title_size"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:letterSpacing="0.11"
+            android:text="@string/title"
+            />
+
+        <TextView
+            android:id="@+id/description_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/descriptionColor"
+            android:textSize="@dimen/description_size"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:letterSpacing="0.1"
+            android:text="@string/description"
+            />
+
+        <TextView
+            android:id="@+id/timeStamp_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="@dimen/default_margin"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/timeStampColor"
+            android:textSize="@dimen/timeStamp_size"
+            android:text="@string/time_stamp"
+            android:letterSpacing="0.09"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+

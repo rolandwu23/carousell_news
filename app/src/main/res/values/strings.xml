@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Carousell News</string>
+    <string name="banner">Banner</string>
+    <string name="title">Congrats! You are featured on Home page as a recommended seller!</string>
+    <string name="description">Hi rita12399, thank you for being awesome on Carousell! We want more Carousellers see you and your listings and hope you can keep up the good listings and bring good experience to fellow Carousellers.</string>
+    <string name="time_stamp">5 hours ago</string>
+    <string name="error">"Cannot load news"</string>
+    <string name="sort">Sort</string>
+    <string name="recent">Recent</string>
+    <string name="popular">Popular</string>
+    <string name="sort_by">Sort By</string>
+
+    <!-- Date Util -->
+    <string name="date_util_unit_hour">hr</string>
+    <string name="date_util_unit_hours">hrs</string>
+    <string name="date_util_unit_day">day</string>
+    <string name="date_util_unit_days">days</string>
+    <string name="date_util_unit_month">month</string>
+    <string name="date_util_unit_months">months</string>
+    <string name="date_util_unit_year">year</string>
+    <string name="date_util_unit_years">years</string>
+
+    <string name="date_util_suffix">ago</string>
+
+</resources>
